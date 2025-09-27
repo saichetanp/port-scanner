@@ -28,3 +28,13 @@ A simple, beginner-friendly port scanner written in pure Python. It uses a threa
 python3 -m venv venv
 source venv/bin/activate    # macOS / Linux
 .\venv\Scripts\activate     # Windows PowerShell
+```
+
+---
+
+## Usage
+
+Run the scanner with Python 3. You must include the `--i-understand` flag to confirm you have permission to scan.
+
+```bash
+python3 port_scanner.py -t <target> -s <start_port> -e <end_port> [options] --i-understand
